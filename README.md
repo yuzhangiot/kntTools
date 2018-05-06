@@ -44,6 +44,8 @@ See "main.cpp" in each subdirectory for typical usage.
 	compile:
 
 		$ mkdir build
+		
+		$ cd build
 
 		$ cmake ../src/
 
