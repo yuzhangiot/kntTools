@@ -6,48 +6,48 @@ See "main.cpp" in each subdirectory for typical usage.
 
 3rd party API dependency:
 
- |
+ 	|
  
- |--knt_reader:
+ 	|--knt_reader:
  
- |   |--Eigen-3.2.5
+ 		|   |--Eigen-3.2.5
  
- |   |--lodepng
+ 		|   |--lodepng
  
- |   |--OpenCV-3.0.0
+		|   |--OpenCV-3.0.0
+		 
+ 	|
  
- |
+	|--knt_writer:
  
- |--knt_writer:
+ 		|   |--Eigen-3.2.5
  
- |   |--Eigen-3.2.5
+ 		|   |--lodepng
  
- |   |--lodepng
+		|   |--OpenCV-3.0.0
  
- |   |--OpenCV-3.0.0
+	|	
+ 		
+     |--knt_viewer
  
- |	
- 
- |--knt_viewer
- 
-     |--Eigen-3.2.5
+     	|--Eigen-3.2.5
      
-     |--glad (or any other opengl loader you would like to use)
+     	|--glad (or any other opengl loader you would like to use)
      
-     |--glfw-3.1.1
+     	|--glfw-3.1.1
      
-     |--lodepng
+     	|--lodepng
      
-     |--OpenCV-3.0.0
+     	|--OpenCV-3.0.0
      
      
-compile:
+	compile:
 
-$ mkdir build
+		$ mkdir build
 
-$ cmake ../src/
+		$ cmake ../src/
 
-$ make -j8
+		$ make -j8
 
-$ ./kntViewer <filePath>
+		$ ./kntViewer <filePath>
 
