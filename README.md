@@ -27,7 +27,10 @@ See "main.cpp" in each subdirectory for typical usage.
 compile:
 
 $ mkdir build
+
 $ cmake ../src/
+
 $ make -j8
+
 $ ./kntViewer <filePath>
 
